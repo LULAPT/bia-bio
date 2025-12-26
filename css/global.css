@@ -84,7 +84,7 @@ body {
 }
 
 #background-layer-1 {
-    background-image: url(/img/4chan1.png);
+    background-image: url(../img/4chan1.png);
     background-size: cover;
     will-change: transform;
     transform: translateZ(0);
