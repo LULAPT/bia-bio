@@ -6,22 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="#2F3136" name="theme-color">
     <title></title>
-    <link rel="stylesheet" href="/css/global.css">
-    <link rel="stylesheet" href="/css/users.css">
-    <link rel="stylesheet" href="/css/popup.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/users.css">
+    <link rel="stylesheet" href="css/popup.css">
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1&amp;f[]=array@400&amp;display=swap" rel="stylesheet">
-    <link rel="icon" href="/img/1267615175779815507.png" type="image/x-icon">
+    <link rel="icon" href="img/1267615175779815507.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" data-font="chillax" href="https://api.fontshare.com/v2/css?f[]=chillax@500&amp;display=swap">
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Creepster&family=Gloria+Hallelujah&family=Permanent+Marker&display=swap"
         rel="stylesheet">
-</head>
-
 <style>
     body {
-        cursor: url(/img/extralsmall.png);
+        cursor: url(img/extralsmall.png);
     }
     /* Animação básica */
     @keyframes fadeInUp {
@@ -51,12 +49,12 @@
     }
 
     * {
-    cursor: url('/Aero.cur'), auto !important;
+    cursor: url('Aero.cur'), auto !important;
 }
 
 /* Para botões e links, você pode adicionar uma regra específica */
 a, button, .linkedAccountsRedirect svg, .popup-button {
-    cursor: url('/Aero.cur'), pointer !important;
+    cursor: url('Aero.cur'), pointer !important;
 }
 
         /* Force layout recalculation on page load */
@@ -74,9 +72,11 @@ a, button, .linkedAccountsRedirect svg, .popup-button {
             }
         }
   </style>
+</head>
 <!-- <div id="background"></div>
 <div id="background-layer-1" class="background-layer"></div> -->
 
+<body profile="" style="font-family: Satoshi, sans-serif; cursor: url('img/extralsmall.png'), auto; background-color: #222222;">
     <!-- Este código deve ser adicionado ao seu HTML existente -->
     <div class="popup-overlay" id="redirect-popup">
         <div class="popup-container">
@@ -89,13 +89,11 @@ a, button, .linkedAccountsRedirect svg, .popup-button {
             </div>
         </div>
     </div>
-
-<body profile="" style="font-family: Satoshi, sans-serif; cursor: url('/img/extralsmall.png'), auto; background-color: #222222;">
     <div class="video-container">
-        <div class="placeholder" style="background-image: url('/img/placeholder.png');"></div>
+        <div class="placeholder" style="background-image: url('img/placeholder.png');"></div>
         <video style="filter: contrast(1.2);" class="background" autoplay muted loop preload="auto" disablePictureInPicture>
-            <source src="/img/ingame.mp4" type="video/mp4">
-            <source src="/img/ingame.webm" type="video/webm">
+            <source src="img/ingame.mp4" type="video/mp4">
+            <source src="img/ingame.webm" type="video/webm">
         </video>
     </div>
     
@@ -104,13 +102,13 @@ a, button, .linkedAccountsRedirect svg, .popup-button {
         <svg class="volume-icon" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24" style="opacity: 0.7;">
             <path fill="currentColor" d="M3 9v6h4l5 5V4L7 9zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02M14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77"></path>
         </svg>
-        <input style="cursor: url('/img/Precision Select.cur') !important;" type="range" class="volume-slider" min="0" max="1" step="0.1" value="1">
+        <input style="cursor: url('img/Precision Select.cur') !important;" type="range" class="volume-slider" min="0" max="1" step="0.1" value="1">
     </div>
 
     <div class="content" style="position: fixed; width: 100%; align-items: center; max-width: var(--containerWidth); display: flex; justify-content: center; flex-direction: column; gap: 15px; will-change: transform; transition: 700ms cubic-bezier(0.03, 0.98, 0.52, 0.99); transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
         <div class="container"  style="will-change: transform; transition: 0ms cubic-bezier(0.03, 0.98, 0.52, 0.99); transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
             <div class="elemento-para-animar delay-7">
-            <img style="opacity: 1;" class="avatar" src="/img/vaatartatar.png">
+            <img style="opacity: 1;" class="avatar" src="img/vaatartatar.png">
         </div>
 
         <div class="profileLayout">
@@ -191,19 +189,19 @@ a, button, .linkedAccountsRedirect svg, .popup-button {
             </div>
             <div class="elemento-para-animar delay-16"><h3 id="typingText" style="color: #ffffff;" class="profileBio"></h3>
                 <i><div id="typingTexts" style="display: none;">To heal and protect. &lt;&gt; Soon, all will wane. &lt;&gt; Hear the elegy of the lost. &lt;&gt; :wave:👋</div></i></div>
-            <script src="/js/typing.js"></script>  
-            <script src="/js/discordStatus.js"></script>
-            <script src="/js/badgeAnim.js"></script>
-            <script src="/js/title.js"></script>
-            <script src="/js/row.js"></script>
-            <script src="/js/player.js"></script>
-            <script src="/js/container1-music1anim.js"></script>
-            <script src="/js/e1ditQ6vEJSZZqx57987sFCx3bRf.js"></script>
+            <script src="js/typing.js"></script>  
+            <script src="js/discordStatus.js"></script>
+            <script src="js/badgeAnim.js"></script>
+            <script src="js/title.js"></script>
+            <script src="js/row.js"></script>
+            <script src="js/player.js"></script>
+            <script src="js/container1-music1anim.js"></script>
+            <script src="js/e1ditQ6vEJSZZqx57987sFCx3bRf.js"></script>
             <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-            <script src="/js/discordUserImage.js"></script>
+            <script src="js/discordUserImage.js"></script>
             <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
             <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-            <script src="/js/lockscreen.js"></script>
+            <script src="js/lockscreen.js"></script>
         </div>
 
         <div class="elemento-para-animar delay-17">
@@ -213,7 +211,7 @@ a, button, .linkedAccountsRedirect svg, .popup-button {
                     <div class="discordAvatar">
                         <img class="avatarImage" src="https://images-ext-1.discordapp.net/external/g4fMyo9rfTLl-mA5Nx_9fImvqfi-tvgDf-bu6KTywBA/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/874517110678765618/8da376bc1c2a0b4b316c590e326a9491.png?format=webp&quality=lossless"
                             alt="Discord Avatar">
-                        <img class="discordStatus" src="/img/idle.png" alt="idle">
+                        <img class="discordStatus" src="img/idle.png" alt="idle">
                     </div>
                     <div class="discordActivity">
                         <div class="discordUser">
@@ -221,7 +219,7 @@ a, button, .linkedAccountsRedirect svg, .popup-button {
                                 <span>biaquista</span>
                                 <div class="discordUserBadges">
                                     <div class="discordUserBadge" data-tooltip="Completou uma Missão">
-                                        <img src="/img/mission.png" alt="Discord Badge">
+                                        <img src="img/mission.png" alt="Discord Badge">
                                     </div>
                                     <!-- <div class="discordUserBadge" data-tooltip="Server boosting since Jun 13, 2021">
                                         <img src="/public/img/boost.png" alt="Discord Badge">
@@ -338,15 +336,15 @@ a, button, .linkedAccountsRedirect svg, .popup-button {
 
             </div>
         </div>
-        <!-- <audio id="rainBackground" src="/img/praiafake.mp3" preload="auto"></audio> -->
-        <audio class="audioPlayer" src="/img/lixomusica.m4a"></audio>
+        <!-- <audio id="rainBackground" src="img/praiafake.mp3" preload="auto"></audio> -->
+        <audio class="audioPlayer" src="img/lixomusica.m4a"></audio>
     </div>
 </div>
 
 
 </div>
 
-    <script src="/js/cur-snow.js"></script>
+    <script src="js/cur-snow.js"></script>
     <script>
 // Código do container com animações otimizadas
 const container = document.getElementById('container');
@@ -489,7 +487,7 @@ container.addEventListener('mouseenter', (e) => {
     // Script isolado para o áudio de chuva em background
 document.addEventListener('DOMContentLoaded', function() {
     // Seleciona especificamente o áudio de chuva, não o player de música
-    const rainAudio = document.querySelector('audio[src="/img/praiafake.mp3"]');
+    const rainAudio = document.querySelector('audio[src="img/praiafake.mp3"]');
     
     if (!rainAudio) {
         console.error('Elemento de áudio da chuva não encontrado');

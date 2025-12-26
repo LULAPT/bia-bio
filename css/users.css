@@ -495,7 +495,7 @@ body {
     gap: 1rem;
     margin-top: 2rem;
     filter: drop-shadow(0 0 0.9px #ffffff) !important;
-    cursor: url('/img/extralsmall.png') !important;
+    cursor: url('../img/extralsmall.png') !important;
     transition: all 0.3s ease; /* Adiciona uma transição suave */
     font-size: 1.09em;
 }
@@ -553,7 +553,7 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-    cursor: url('/img/extralsmall.png') !important;
+    cursor: url('../img/extralsmall.png') !important;
 }
 
 .container .linkedAccounts .linkedAccountsRedirect.copied::before {
@@ -1037,7 +1037,7 @@ body {
     width: 12px;
     height: 12px;
     background: white;
-    cursor: url('/img/Precision Select.cur');
+    cursor: url('../img/Precision Select.cur');
     border-radius: 50%;
 }
 
